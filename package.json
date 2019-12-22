@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-jwt-api",
+  "version": "1.0.0",
+  "description": "Implement JWT in API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVPuttur/NODEJS-JWT-API.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "JavaScript",
+    "API",
+    "JWT"
+  ],
+  "author": "AVPuttur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AVPuttur/NODEJS-JWT-API/issues"
+  },
+  "homepage": "https://github.com/AVPuttur/NODEJS-JWT-API#readme",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "bcrypt": "^3.0.7",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.2",
+    "nodemon": "^2.0.2"
+  }
+}
